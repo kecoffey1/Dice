@@ -25,9 +25,7 @@ void draw()
 void mousePressed()
 {
     redraw();
-    total = 0;
-    fill(255);
-    rect(200,100,100,40); 
+    total = 0; 
 }
 class Die //models one single dice cube
 {
